@@ -1,0 +1,21 @@
+{
+  "name": "gp3o",
+  "version": "1.0.0",
+  "description": "A Raspiberry Pi GPIO library",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "ts": "npx tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GPIO"
+  ],
+  "author": "daurham",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "onoff": "^6.0.3",
+    "typescript": "^5.2.2"
+  }
+}
