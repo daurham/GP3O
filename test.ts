@@ -1,10 +1,9 @@
-// import the class
-// import { GPIOModule } from "./GPIOModule";
+import { LED } from "./GPIOModule.js";
 
-// create a fake module
-// export const LED = new GPIOModule(1, "out");
+// Blink every 10 seconds
+const blinkTest = () => {
+  const RedLED = new LED(17);
+  RedLED.blink();
+};
 
-// toggle the value
-// LED.toggle();
-
-
+blinkTest();
